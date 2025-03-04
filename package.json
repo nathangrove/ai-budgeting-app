@@ -1,0 +1,12 @@
+{
+  "name": "budgeting-app",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:frontend": "yarn workspace frontend start",
+    "start:backend": "yarn workspace backend start"
+  }
+}
